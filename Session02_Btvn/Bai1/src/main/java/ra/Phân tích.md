@@ -1,0 +1,8 @@
+Phần 1 - Phân tích logic: Nguyên nhân gốc rễ của vấn đề
+Mặc dù bạn đã khởi tạo danh sách và thêm các đối tượng Product vào đầy đủ, các ứng dụng client (Frontend, Mobile) vẫn không thể nhận được dữ liệu JSON hợp lệ. Nguyên nhân gốc rễ nằm ở kiểu trả về của phương thức và cách bạn xử lý dữ liệu trước khi return:
+
+Sai lệch kiểu trả về (Return Type): Phương thức getHotProducts() đang khai báo kiểu trả về là String. Khi bạn gọi products.toString(), Java sẽ sử dụng phương thức mặc định của lớp ArrayList để chuyển cả danh sách thành một chuỗi văn bản thuần túy (Plain Text).
+
+Định dạng chuỗi không chuẩn cấu trúc JSON: Chuỗi sinh ra từ toString() của một List trong Java thường có dạng: [Package.ClassName@hashcode, Package.ClassName@hashcode]. Ngay cả khi bạn có override lại toString() trong lớp Product, kết quả trả về cũng chỉ là một chuỗi có dạng [id=HP001, name=..., price=...] chứ không phải là cấu trúc JSON chuẩn ([{"id": "HP001", "name": "...", "price": ...}]).
+
+Mất cơ chế tự động chuyển đổi của Spring Boot: @RestController của Spring Boot được tích hợp sẵn thư viện Jackson. Khi một phương thức trả về một đối tượng Java (như List<Product>, Product, Map,...), Jackson sẽ tự động chuyển đổi (serialize/marshal) đối tượng đó thành chuỗi JSON chuẩn chỉnh, đồng thời cấu hình HTTP Header Content-Type: application/json. Tuy nhiên, vì bạn trả về một String, Spring Boot hiểu rằng bạn muốn gửi một chuỗi văn bản thô, dẫn đến việc thiết lập Content-Type: text/plain (hoặc text/html nếu có lỗi xảy ra). Client khi đọc Header này sẽ không thể parse thành JSON Object/Array được.
