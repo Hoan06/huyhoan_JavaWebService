@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/products") // Endpoint base chuẩn tắc
+@RequestMapping("/api/v1/products")
 public class ProductController {
 
     private static final List<Product> mockProductDatabase = new ArrayList<>();
