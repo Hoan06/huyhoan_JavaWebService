@@ -1,0 +1,48 @@
+2026-05-25 13:10:14.174 [Test worker] INFO  ra.demo.test_api.TestCategoryController - Starting TestCategoryController using Java 17.0.18 with PID 19932 (started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:10:14.176 [Test worker] INFO  ra.demo.test_api.TestCategoryController - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:10:14.416 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-25 13:10:16.683 [Test worker] INFO  ra.demo.test_api.TestCategoryController - Started TestCategoryController in 3.109 seconds (process running for 4.904)
+2026-05-25 13:10:51.548 [Test worker] INFO  ra.demo.test_api.TestCategoryController - Starting TestCategoryController using Java 17.0.18 with PID 24336 (started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:10:51.549 [Test worker] INFO  ra.demo.test_api.TestCategoryController - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:10:51.782 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-25 13:10:54.080 [Test worker] INFO  ra.demo.test_api.TestCategoryController - Started TestCategoryController in 3.05 seconds (process running for 4.544)
+2026-05-25 13:14:14.143 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 24800 (D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product\build\classes\java\main started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:14:14.146 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:14:15.831 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:14:16.088 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a33ce5f
+2026-05-25 13:14:16.090 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:14:17.487 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Started RestApiCategoryProductApplication in 3.815 seconds (process running for 4.469)
+2026-05-25 13:15:56.769 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-25 13:15:56.774 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-25 13:15:56.879 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 24800 (D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product\build\classes\java\main started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:15:56.879 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:15:57.329 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-05-25 13:15:57.343 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c8fd02d
+2026-05-25 13:15:57.343 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-05-25 13:15:57.606 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Started RestApiCategoryProductApplication in 0.768 seconds (process running for 104.588)
+2026-05-25 13:15:59.249 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-05-25 13:15:59.253 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-05-25 13:15:59.328 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 24800 (D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product\build\classes\java\main started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:15:59.328 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:15:59.578 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-05-25 13:15:59.589 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70622367
+2026-05-25 13:15:59.589 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-05-25 13:15:59.820 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Started RestApiCategoryProductApplication in 0.521 seconds (process running for 106.802)
+2026-05-25 13:17:03.606 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-05-25 13:17:03.610 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-05-25 13:17:03.708 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 24800 (D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product\build\classes\java\main started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:17:03.708 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:17:04.049 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-05-25 13:17:04.060 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14b02ece
+2026-05-25 13:17:04.060 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-05-25 13:17:04.272 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Started RestApiCategoryProductApplication in 0.599 seconds (process running for 171.254)
+2026-05-25 13:17:07.643 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-05-25 13:17:07.668 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-05-25 13:17:07.878 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 24800 (D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product\build\classes\java\main started by bthai in D:\RIKKEI\LOP HOC\K24_PTIT\CNTT2\5. Java Webservices\Session 09\Logging_nangcao\RestApi_Category_Product)
+2026-05-25 13:17:07.878 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:17:08.373 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-05-25 13:17:08.397 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f5135fc
+2026-05-25 13:17:08.397 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-05-25 13:17:08.866 [restartedMain] INFO  ra.demo.RestApiCategoryProductApplication - Started RestApiCategoryProductApplication in 1.054 seconds (process running for 175.849)
+2026-05-25 13:17:42.433 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-05-25 13:17:42.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.

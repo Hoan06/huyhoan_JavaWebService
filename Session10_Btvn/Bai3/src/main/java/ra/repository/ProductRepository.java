@@ -1,0 +1,27 @@
+package ra.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+import ra.model.entity.Product;
+
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> {
+
+    Optional<Product> findBySku(String sku);
+
+    @Modifying
+    @Query("UPDATE Product p SET p.quantity = p.quantity - :qty WHERE p.sku = :sku AND p.quantity >= :qty")
+    int exportProductDirectly(@Param("sku") String sku, @Param("qty") Long qty);
+
+    @Modifying
+    @Query("UPDATE Product p SET p.quantity = p.quantity + :qty WHERE p.sku = :sku")
+    int importProductDirectly(@Param("sku") String sku, @Param("qty") Long qty);
+
+    List<Product> findByQuantityLessThan(Long limit);
+}

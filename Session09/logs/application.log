@@ -1,0 +1,48 @@
+2026-05-25T13:01:31.168+07:00  INFO 23176 --- [RestApi_Category_Product] [http-nio-8080-exec-7] ra.demo.controller.CategoryController    : Nguyễn Huy Hoàn - Get - Lấy thông tin danh mục sản phẩm thành công - 5 danh mục
+2026-05-25T13:01:31.170+07:00  WARN 23176 --- [RestApi_Category_Product] [http-nio-8080-exec-7] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-05-25T13:02:32.709+07:00  INFO 23176 --- [RestApi_Category_Product] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-25T13:02:32.710+07:00  INFO 23176 --- [RestApi_Category_Product] [Thread-28] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T13:02:32.900+07:00  INFO 23176 --- [RestApi_Category_Product] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T13:02:32.904+07:00  INFO 23176 --- [RestApi_Category_Product] [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T13:02:32.904+07:00  INFO 23176 --- [RestApi_Category_Product] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-05-25T13:02:32.911+07:00  INFO 23176 --- [RestApi_Category_Product] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-05-25T13:02:33.009+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] r.d.RestApiCategoryProductApplication    : Starting RestApiCategoryProductApplication using Java 17.0.18 with PID 23176 (D:\HOC_LAP_TRINH\JavaWebService\Session09\build\classes\java\main started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session09)
+2026-05-25T13:02:33.010+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] r.d.RestApiCategoryProductApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T13:02:33.230+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T13:02:33.247+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2026-05-25T13:02:33.370+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T13:02:33.372+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T13:02:33.373+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T13:02:33.408+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 395 ms
+2026-05-25T13:02:33.455+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T13:02:33.510+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T13:02:33.511+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2026-05-25T13:02:33.529+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f9db278
+2026-05-25T13:02:33.529+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2026-05-25T13:02:33.532+07:00  WARN 23176 --- [RestApi_Category_Product] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T13:02:33.537+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_cntt2_cat_pro?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_cntt2_cat_pro/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T13:02:33.623+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T13:02:33.649+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T13:02:33.771+07:00  WARN 23176 --- [RestApi_Category_Product] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T13:02:33.912+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T13:02:33.915+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] r.d.RestApiCategoryProductApplication    : Started RestApiCategoryProductApplication in 0.933 seconds (process running for 912.189)
+2026-05-25T13:02:33.916+07:00  INFO 23176 --- [RestApi_Category_Product] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T13:03:33.022+07:00  INFO 23176 --- [RestApi_Category_Product] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T13:03:33.077+07:00  INFO 23176 --- [RestApi_Category_Product] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T13:03:33.078+07:00  INFO 23176 --- [RestApi_Category_Product] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T13:03:33.078+07:00  INFO 23176 --- [RestApi_Category_Product] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2026-05-25T13:03:33.080+07:00  INFO 23176 --- [RestApi_Category_Product] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.

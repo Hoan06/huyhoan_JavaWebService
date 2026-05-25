@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
         Map<String, Object> body = new LinkedHashMap<>();
 
         body.put("timestamp", LocalDateTime.now().toString());
-        body.put("status", HttpStatus.BAD_REQUEST.value()); // 400
+        body.put("status", HttpStatus.BAD_REQUEST.value());
 
         body.put("error_code", ex.getClass().getSimpleName().replaceAll("Exception", "").toUpperCase());
         body.put("message", ex.getMessage());

@@ -1,0 +1,1 @@
+2026-05-27 13:18:14.522 [http-nio-8080-exec-2] ERROR ra.demo.advice.ApiAdvice - Nguyễn Thanh Bình - INSERT - {yearMaking=Không được để trống năm sản xuất, producer=Không được để trống nhà sản xuất, expireDate=Không được để trống ngày sản xuất, proName=Không được để trống tên sản phẩm, category=Không được để trống danh mục sản phẩm}

@@ -1,0 +1,12 @@
+package ra;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderService {
+
+    public void createOrder() {
+
+        throw new RuntimeException("Đứt kết nối DB!");
+    }
+}
