@@ -1,0 +1,208 @@
+[2026-05-28 14:38:00] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:38:00] [INFO] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.9 with PID 29348 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:38:00] [INFO] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:38:04] [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:38:04] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:38:04] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 8 ms
+[2026-05-28 14:38:04] [INFO] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 4.223 seconds (process running for 6.372)
+[2026-05-28 14:39:19] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:39:19] [INFO] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.9 with PID 34100 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:39:19] [INFO] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:39:22] [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:39:22] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:39:22] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 5 ms
+[2026-05-28 14:39:22] [INFO] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 3.496 seconds (process running for 5.244)
+[2026-05-28 14:40:47] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:40:47] [INFO] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.9 with PID 15284 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:40:47] [INFO] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:40:50] [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:40:50] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:40:50] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 5 ms
+[2026-05-28 14:40:50] [INFO] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 3.539 seconds (process running for 5.321)
+[2026-05-28 14:42:45] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:42:45] [INFO] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.9 with PID 20712 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:42:45] [INFO] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:42:50] [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:42:50] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:42:50] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 5 ms
+[2026-05-28 14:42:50] [INFO] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 5.878 seconds (process running for 7.692)
+[2026-05-28 14:48:17] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:48:17] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.9 with PID 18044 (D:\HOC_LAP_TRINH\JavaWebService\Session13_Test\build\classes\java\main started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:48:17] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:48:18] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:48:18] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+[2026-05-28 14:48:19] [INFO] [o.s.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+[2026-05-28 14:48:19] [INFO] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:48:19] [INFO] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:48:19] [INFO] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.21]
+[2026-05-28 14:48:19] [INFO] [o.s.b.w.c.s.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1475 ms
+[2026-05-28 14:48:19] [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:48:19] [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+[2026-05-28 14:48:20] [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:48:20] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:48:21] [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25b20860
+[2026-05-28 14:48:21] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:48:21] [WARN] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:48:21] [INFO] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_hackathon_springapi?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_hackathon_springapi/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:48:23] [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:48:24] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:48:24] [INFO] [o.s.d.j.r.q.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2026-05-28 14:48:24] [WARN] [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:48:25] [INFO] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:48:25] [INFO] [o.s.boot.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+[2026-05-28 14:48:25] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 8.362 seconds (process running for 9.436)
+[2026-05-28 14:49:06] [INFO] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2026-05-28 14:49:06] [INFO] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+[2026-05-28 14:49:06] [INFO] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 4 ms
+[2026-05-28 14:49:06] [INFO] [r.demo.service.impl.BookServiceImpl] - Lấy danh sách thành công, tổng : 0
+[2026-05-28 14:50:49] [INFO] [r.demo.service.impl.BookServiceImpl] - Thêm sách thành công với id: 1
+[2026-05-28 14:51:21] [INFO] [o.s.boot.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+[2026-05-28 14:51:21] [INFO] [o.s.boot.tomcat.GracefulShutdown] - Graceful shutdown complete
+[2026-05-28 14:51:21] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:51:21] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:51:21] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 14:51:25] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:51:25] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.9 with PID 18216 (D:\HOC_LAP_TRINH\JavaWebService\Session13_Test\build\classes\java\main started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:51:25] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:51:26] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:51:26] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+[2026-05-28 14:51:27] [INFO] [o.s.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+[2026-05-28 14:51:27] [INFO] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:51:27] [INFO] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:51:27] [INFO] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.21]
+[2026-05-28 14:51:27] [INFO] [o.s.b.w.c.s.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1557 ms
+[2026-05-28 14:51:27] [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:51:27] [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+[2026-05-28 14:51:28] [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:51:28] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:51:29] [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b10f60e
+[2026-05-28 14:51:29] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:51:29] [WARN] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:51:29] [INFO] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_hackathon_springapi?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_hackathon_springapi/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:51:30] [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:51:30] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:51:31] [INFO] [o.s.d.j.r.q.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2026-05-28 14:51:31] [WARN] [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:51:31] [INFO] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:51:31] [INFO] [o.s.boot.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+[2026-05-28 14:51:31] [INFO] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 6.738 seconds (process running for 8.442)
+[2026-05-28 14:51:36] [INFO] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2026-05-28 14:51:36] [INFO] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+[2026-05-28 14:51:36] [INFO] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+[2026-05-28 14:51:36] [INFO] [r.demo.service.impl.BookServiceImpl] - Lấy danh sách thành công, tổng : 1
+[2026-05-28 14:51:43] [INFO] [r.demo.service.impl.BookServiceImpl] - Lấy danh sách thành công, tổng : 1
+[2026-05-28 14:59:24] [INFO] [o.s.boot.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+[2026-05-28 14:59:24] [INFO] [o.s.boot.tomcat.GracefulShutdown] - Graceful shutdown complete
+[2026-05-28 14:59:24] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:59:24] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:59:24] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 14:59:33] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 14:59:33] [INFO] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.9 with PID 33340 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 14:59:33] [INFO] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:59:36] [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:59:36] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:59:36] [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 4 ms
+[2026-05-28 14:59:36] [INFO] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 3.557 seconds (process running for 5.587)
+[2026-05-28 15:02:12] [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 15:02:13] [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Starting KiemTraHackathonSpringApiApplicationTests using Java 21.0.9 with PID 27588 (started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 15:02:13] [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 15:02:13] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 15:02:13] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+[2026-05-28 15:02:14] [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 15:02:14] [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+[2026-05-28 15:02:15] [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 15:02:15] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 15:02:15] [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fd4b9ec
+[2026-05-28 15:02:15] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 15:02:15] [WARN] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 15:02:15] [INFO] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_hackathon_springapi?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_hackathon_springapi/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 15:02:16] [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 15:02:16] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 15:02:17] [INFO] [o.s.d.j.r.q.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2026-05-28 15:02:17] [WARN] [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 15:02:18] [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Started KiemTraHackathonSpringApiApplicationTests in 5.5 seconds (process running for 7.29)
+[2026-05-28 15:02:18] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 15:02:18] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 15:02:18] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 15:05:19] [INFO] [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+[2026-05-28 15:05:19] [INFO] [ra.demo.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.9 with PID 20620 (D:\HOC_LAP_TRINH\JavaWebService\Session13_Test\build\classes\java\main started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Session13_Test)
+[2026-05-28 15:05:19] [DEBUG] [ra.demo.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v4.0.6, Spring v7.0.7
+[2026-05-28 15:05:19] [INFO] [ra.demo.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 15:05:20] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 15:05:20] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+[2026-05-28 15:05:21] [INFO] [org.springframework.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+[2026-05-28 15:05:21] [INFO] [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 15:05:21] [INFO] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 15:05:21] [INFO] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.21]
+[2026-05-28 15:05:21] [INFO] [org.springframework.boot.web.context.servlet.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1630 ms
+[2026-05-28 15:05:21] [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 15:05:21] [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+[2026-05-28 15:05:23] [INFO] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 15:05:23] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 15:05:24] [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ca60688
+[2026-05-28 15:05:24] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 15:05:24] [WARN] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 15:05:24] [INFO] [org.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_hackathon_springapi?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_hackathon_springapi/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 15:05:26] [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 15:05:26] [INFO] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 15:05:27] [INFO] [org.springframework.data.jpa.repository.query.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2026-05-28 15:05:27] [WARN] [org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 15:05:28] [INFO] [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 15:05:28] [INFO] [org.springframework.boot.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+[2026-05-28 15:05:28] [INFO] [ra.demo.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 9.833 seconds (process running for 10.647)
+[2026-05-28 15:05:34] [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2026-05-28 15:05:34] [INFO] [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+[2026-05-28 15:05:34] [INFO] [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 4 ms
+[2026-05-28 15:05:34] [DEBUG] [ra.demo.service.impl.BookServiceImpl] - Gửi yêu cầu đến lấy danh sách 
+[2026-05-28 15:05:35] [INFO] [ra.demo.service.impl.BookServiceImpl] - Lấy danh sách thành công, tổng : 1
+[2026-05-28 15:05:45] [DEBUG] [ra.demo.service.impl.BookServiceImpl] - Yêu cầu xem sách có id : 1
+[2026-05-28 15:05:45] [INFO] [ra.demo.service.impl.BookServiceImpl] - Lấy sách thành công với id: 1
+[2026-05-28 15:05:51] [INFO] [org.springframework.boot.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+[2026-05-28 15:05:51] [INFO] [org.springframework.boot.tomcat.GracefulShutdown] - Graceful shutdown complete
+[2026-05-28 15:05:51] [INFO] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 15:05:51] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 15:05:51] [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,49 @@
+2026-05-28T22:53:49.251+07:00  INFO 35204 --- [Ontap_hackathon] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-28T22:53:49.308+07:00  INFO 35204 --- [Ontap_hackathon] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-28T22:53:49.312+07:00  INFO 35204 --- [Ontap_hackathon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28T22:53:49.314+07:00  INFO 35204 --- [Ontap_hackathon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-28T22:53:49.321+07:00  INFO 35204 --- [Ontap_hackathon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-28T22:53:50.979+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] ra.OntapHackathonApplication             : Starting OntapHackathonApplication using Java 17.0.18 with PID 27844 (D:\HOC_LAP_TRINH\JavaWebService\Ontap_hackathon\build\classes\java\main started by HUY HOAN in D:\HOC_LAP_TRINH\JavaWebService\Ontap_hackathon)
+2026-05-28T22:53:50.982+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] ra.OntapHackathonApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-05-28T22:53:51.010+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-28T22:53:51.010+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-28T22:53:51.394+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-28T22:53:51.434+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2026-05-28T22:53:51.787+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-28T22:53:51.797+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-28T22:53:51.797+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-28T22:53:51.828+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 818 ms
+2026-05-28T22:53:51.953+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-28T22:53:52.007+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-28T22:53:52.307+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-28T22:53:52.337+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-28T22:53:52.574+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2691335c
+2026-05-28T22:53:52.575+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-28T22:53:52.614+07:00  WARN 27844 --- [Ontap_hackathon] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-28T22:53:52.628+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ontap_hackathon_webservice?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: ontap_hackathon_webservice/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-28T22:53:53.402+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-28T22:53:53.483+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28T22:53:53.598+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-28T22:53:53.890+07:00  WARN 27844 --- [Ontap_hackathon] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-28T22:53:54.223+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-28T22:53:54.227+07:00  INFO 27844 --- [Ontap_hackathon] [restartedMain] ra.OntapHackathonApplication             : Started OntapHackathonApplication in 3.539 seconds (process running for 3.991)
+2026-05-28T22:54:06.002+07:00  INFO 27844 --- [Ontap_hackathon] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-28T22:54:06.002+07:00  INFO 27844 --- [Ontap_hackathon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-28T22:54:06.003+07:00  INFO 27844 --- [Ontap_hackathon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-28T22:54:06.145+07:00  INFO 27844 --- [Ontap_hackathon] [http-nio-8080-exec-1] ra.aspect.MedicationAspect               : Request tới : save
+2026-05-28T22:55:12.796+07:00  INFO 27844 --- [Ontap_hackathon] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-28T22:55:12.850+07:00  INFO 27844 --- [Ontap_hackathon] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-28T22:55:12.852+07:00  INFO 27844 --- [Ontap_hackathon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28T22:55:12.854+07:00  INFO 27844 --- [Ontap_hackathon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-28T22:55:12.860+07:00  INFO 27844 --- [Ontap_hackathon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
