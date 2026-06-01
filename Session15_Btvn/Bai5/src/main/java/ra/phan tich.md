@@ -1,0 +1,6 @@
+Vai trò của các Annotation và Class trong RESTful API
+@RestController: Đây là sự kết hợp giữa @Controller và @ResponseBody. Nó đánh dấu một lớp là nơi tiếp nhận và xử lý các Request từ Client gửi lên. Điểm đặc biệt là tất cả các dữ liệu trả về từ các phương thức bên trong lớp này sẽ tự động được Spring Boot chuyển đổi (serialize) thành định dạng JSON hoặc XML để ghi trực tiếp vào thân của HTTP Response, thay vì tìm kiếm một trang giao diện HTML (View) để hiển thị.
+
+@RequestBody: Annotation này ra lệnh cho Spring Boot kích hoạt bộ chuyển đổi dữ liệu (Mặc định là Jackson nâng cao). Nó sẽ đọc toàn bộ chuỗi JSON thô nằm trong thân (Body) của HTTP Request do Client gửi lên, sau đó phân tích và chuyển đổi cấu trúc chuỗi đó thành một đối tượng Java (DTO) tương ứng để lập trình viên có thể dễ dàng thao tác bằng mã nguồn.
+
+ResponseEntity: Đây là một đối tượng bọc (Wrapper) đại diện cho toàn bộ một HTTP Response bao gồm ba thành phần: Trạng thái phản hồi (HTTP Status Code), các tiêu đề đi kèm (HTTP Headers), và thân phản hồi (Body dữ liệu). Việc sử dụng ResponseEntity cho phép lập trình viên toàn quyền kiểm soát và tùy biến linh hoạt việc trả về các mã trạng thái chuẩn RESTful (như 201 Created, 401 Unauthorized, 409 Conflict) tương ứng với từng kịch bản nghiệp vụ của hệ thống, thay vì chỉ trả về mã 200 OK mặc định.
