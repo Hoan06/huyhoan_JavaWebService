@@ -1,0 +1,70 @@
+Phần 1:
+	Đăng ký tài khoản người dùng với các role tương ứng -> Finished.
+	
+Phần 2:  - Thêm thư viện JWT vào.
+	Người dùng Login:
+		1. Xử lý xác thực với username và password
+		2. Người dùng đã được xác thực thì: Sinh ra chuỗi jwt và trả về cho người dung
+
+	* Xác thực với username và password:
+		+ Sử dụng đối tượng của lớp: AuthenticationManager -> Được cấu hình trong file
+			SecurityConfig
+		+ Gọi phương thức: authenticate(new UsernameAndPasswordAuthenticationToken(<username>,<password>));
+				-> Nếu ném lỗi thì không xác thực được
+				-> Nếu không ném lỗi thì xác thực thành công
+		
+		+ Xác thực thành công sẽ trả về đối tượng: Authentication
+		+ Sử dụng đối tượng này gọi phương thức: getPrincipal() -> Trả về CustomUserDetails
+	
+	+ Phải cài đặt lớp: JWTProvider thực hiện các nhiệm vụ:
+		+ Sinh ra chuỗi token từ username
+		
+	-> Kết quả trả sau phần 2:
+		+ Người dùng đăng nhập thành công và nhận về 1 chuỗi token gồm các thông tin:
+				- Thông tin của tài khoản (username, fullName, email)
+				- Chuỗi token
+				- Chuỗi refresh token
+	* Thêm thư viện: Gõ từ khóa "jwt io maven" vào trình duyệt
+
+CÁC BƯỚC TRIỂN KHAI PHẦN 2:
+1. Thêm thư viện jwt vào project
+2. Cấu hình lớp AuthenticationManager
+3. Cài đặt lớp JWTProvider với phương thức sinh ra chuỗi token
+	- Thêm các thông tin cấu hình trong file application.properties
+4. Cài đặt phương thức login:
+	- Nhận vào tham số là username và password (tạo class UserLogin)
+	- Trả về kết quả là JWTResponse với các thông số:
+		+ username
+		+ fullName
+		+ email
+		+ enabled
+		+ authorities (Collection<? extend GrandAuthority>)
+		+ token
+				-> Cài đặt lớp JWTResponse
+	- Hàm login: Tham số vào là UserLogin, kiểu trả về là JWTResponse
+
+Phần 3:
+	Xử lý call api + chuỗi jwt
+
+	1. Cài đặt JWTAuthFilter:
+		- Là 1 filter (tự chạy)
+		- Kế thừa OncePerRequestFilter (Mỗi lần request lại xác thực lại)
+		
+		Các bước thực hiện:
+		1.1 Tạo class JWTAuthFilter extends OncePerRequestFilter
+		1.2 Override method: doFilterInternal(...):
+			1.2.1 Tách chuỗi token từ request
+			1.2.2 Cài đặt phương thức validateToken(String token) trong JWTProvider
+			1.2.3 Cài đặt hàm getUsernameFromToken(Strong token) trong JWTProvider
+			1.2.4 Xử lý tiếp trong doFilterInternal
+					- Lấy username từ token
+					- Sử dụng UserDetailsService gọi hàm loadUserByUsername() trả về CustomUserDetails
+					- Tạo ra Authentication
+					- Gán vào SecurityContextHolder
+		
+	2. Cài đặt 1 lớp xử lý lỗi khi chưa xác thực
+		Cài đặt lớp JWTAuthenticationEntryPoint kế thừa AuthenticationEntryPoint
+	
+	3. Thêm 1 số cấu hình:
+		- Cấu AuthenticationProvider
+		- Thêm cấu hình vào SecurityFilterChain

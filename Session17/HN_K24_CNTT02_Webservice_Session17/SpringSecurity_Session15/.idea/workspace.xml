@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93cb6f58-9a82-4aea-a8e9-badef54f6976" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Session15/src/main/java/ra/demo/model/dto/request/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Session15/src/main/java/ra/demo/security/jwt/JWTProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15/src/main/java/ra/demo/security/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15/src/main/java/ra/demo/security/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/java/ra/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/java/ra/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/java/ra/phan tich.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/java/ra/phan tich.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Session15_Btvn/Bai3/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/src/main/java/ra/Bai1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/src/main/java/ra/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/src/main/java/ra/model/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai1/src/test/java/ra/Bai1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/Bai2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/aspect/AuditLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/images/test1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/images/test2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/images/test3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/model/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/java/ra/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai2/src/test/java/ra/Bai2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/main/java/ra/Bai3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/main/java/ra/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/main/java/ra/principle/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/main/java/ra/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai3/src/test/java/ra/Bai3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/java/ra/Bai4Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/java/ra/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/java/ra/principle/UserDetailServiceCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/java/ra/principle/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/java/ra/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Session16_Btvn/Bai4/src/test/java/ra/Bai4ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3EZPUs9wRDHwD3zo2jkRZlroGdo" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/HOC_LAP_TRINH/JavaWebService/Session17/HN_K24_CNTT02_Webservice_Session17/SpringSecurity_Session15",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringSecuritySession15Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SpringSecurity_Session15.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ra.demo.SpringSecuritySession15Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93cb6f58-9a82-4aea-a8e9-badef54f6976" name="Changes" comment="" />
+      <created>1780383138756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780383138756</updated>
+      <workItem from="1780383140036" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
