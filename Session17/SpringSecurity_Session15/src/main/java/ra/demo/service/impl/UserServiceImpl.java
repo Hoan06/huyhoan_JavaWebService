@@ -46,7 +46,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public JWTResponse login(UserLogin userLogin) {
         try{
-            Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(userLogin.getUsername(), userLogin.getPassword()));
+            Authentication authentication = authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(userLogin.getUsername(), userLogin.getPassword()));
 
             CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
             String token = jwtProvider.generateToken(userDetails.getUsername());

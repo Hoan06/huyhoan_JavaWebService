@@ -18,8 +18,6 @@ public class JWTProvider {
     private String jwtSecret;
     @Value("${jwt-expired}")
     private Long jwtExpired;
-    @Value("${jwt-refresh-expired}")
-    private Long jwtRefreshExpired;
 
     public String generateToken(String username){
         try{

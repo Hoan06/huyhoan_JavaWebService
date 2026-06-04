@@ -1,0 +1,3 @@
+Vị trí lưu trữ: Trạng thái thu hồi được lưu trữ trực tiếp trong bảng cơ sở dữ liệu refresh_tokens thông qua một cột cấu trúc dữ liệu chuỗi kí tự đặt tên là status. Cột này nhận hai giá trị trạng thái là ACTIVE (Hợp lệ) và REVOKED (Đã bị thu hồi / Đưa vào danh sách đen).
+
+Cơ chế kiểm tra nhanh nhất: Mỗi khi Client gửi yêu cầu gia hạn Access Token lên endpoint /refresh, hệ thống sẽ thực hiện truy vấn trực tiếp theo chỉ mục (Index) của trường dữ liệu token. Sau khi tìm thấy, bộ lọc kiểm tra lập tức đọc trường dữ liệu status. Nếu giá trị thuộc tính bằng REVOKED, hệ thống ngay lập tức huỷ bỏ luồng xử lý và đưa ra phản hồi từ chối tiếp cận dữ liệu mà không cần thực hiện thêm các thao tác giải mã phức tạp nào khác.
