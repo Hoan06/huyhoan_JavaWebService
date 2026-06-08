@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class JwtService {
 
     private final String SECRET_KEY = "superSecretKeyForJWTHS256MustBeLongEnoughToPassValidation";
-    private final long ACCESS_TOKEN_EXPIRATION_MS = TimeUnit.MINUTES.toMillis(15);
+    private final long ACCESS_TOKEN_EXPIRATION_MS = TimeUnit.SECONDS.toMillis(5);
 
     public SecretKey getSigningKey() {
         return Keys.hmacShaKeyFor(SECRET_KEY.getBytes(StandardCharsets.UTF_8));

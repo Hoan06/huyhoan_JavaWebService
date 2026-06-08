@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+		"name": "Medicine Management System Test",
+		"description": "Kịch bản kiểm thử luồng Đăng nhập, Làm mới Token và Đăng xuất (Revoke) cho hệ thống kho thuốc.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Đăng nhập hệ thống (Lấy cả 2 Token)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if(jsonData.accessToken) {",
+							"    pm.environment.set(\"med_accessToken\", jsonData.accessToken);",
+							"}",
+							"if(jsonData.refreshToken) {",
+							"    pm.environment.set(\"med_refreshToken\", jsonData.refreshToken);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"nguyenhuyhoan\",\n    \"password\": \"hoan2026\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"login"
+					]
+				},
+				"description": "Gửi tài khoản đã được DataInitializer tự động cấu hình khởi tạo sẵn."
+			},
+			"response": []
+		},
+		{
+			"name": "2. Đổi Refresh Token lấy Access Token mới",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"refreshToken\": \"{{med_refreshToken}}\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/auth/refresh-token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"refresh-token"
+					]
+				},
+				"description": "Bắn chuỗi UUID Refresh Token lên để gia hạn thẻ thông hành Access Token mới mà không cần bắt user nhập lại mật khẩu."
+			},
+			"response": []
+		},
+		{
+			"name": "3. Đăng xuất & Thu hồi phiên (Logout & Revoke)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{med_accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/auth/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"logout"
+					]
+				},
+				"description": "Gửi kèm Access Token lên Header để xác định danh tính, sau đó xóa sạch Refresh Token tương ứng dưới DB."
+			},
+			"response": []
+		},
+		{
+			"name": "4. Thử dùng lại Refresh Token cũ sau khi Logout (Mong đợi Lỗi)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"refreshToken\": \"{{med_refreshToken}}\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/auth/refresh-token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"refresh-token"
+					]
+				},
+				"description": "Sau khi đã gọi API Logout, Refresh Token này không còn tồn tại trong DB, hệ thống bắt buộc phải chặn lại và ném mã lỗi."
+			},
+			"response": []
+		}
+	]
+}

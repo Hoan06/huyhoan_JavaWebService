@@ -1,0 +1,119 @@
+{
+	"info": {
+		"name": "Inventory Management System Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Đăng nhập hệ thống",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.environment.set(\"inventory_accessToken\", jsonData.accessToken);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"huyhoan\",\n    \"password\": \"hoan2026\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/inventory/auth/login",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "inventory", "auth", "login"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Thống kê lịch sử mua hàng cá nhân (Stream API)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{inventory_accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/inventory/orders/my-summary",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "inventory", "orders", "my-summary"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Đăng xuất tài khoản",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{inventory_accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/inventory/auth/logout",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "inventory", "auth", "logout"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Gọi lại API sau khi Logout (Mong đợi 403/401)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{inventory_accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/inventory/orders/my-summary",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "inventory", "orders", "my-summary"]
+				}
+			},
+			"response": []
+		}
+	]
+}
